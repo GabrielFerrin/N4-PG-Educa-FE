@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import RecordView from '../../Hooks/ReactMediaRecorder';
+import RecordView from '../../Hooks/RecordVideo.jsx';
 
 
 
