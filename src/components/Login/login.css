@@ -1,0 +1,92 @@
+/* .body-login-cmp {
+    background-color: #1D1C22;
+    margin: -.5rem;
+    padding: 0;
+    height: 100vh;
+} */
+
+body{
+    background-color: #1D1C22;
+}
+
+.header-login-cmp {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem;
+}
+
+.logo-cmp {
+    color: #CCCCCC;
+}
+
+.registrarse-boton-cmp {
+    background-color: #61CE70;
+    color: #FFFFFF;
+    padding-inline: 1.2rem;
+    padding-block: .6rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+.main-login-cmp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 160px;
+}
+
+.box-login-cmp h2{
+    text-align: center;
+    color: #CCCCCC;
+}
+
+
+.box-login-cmp form{
+    width: 250px;
+}
+
+/* imput box */
+.input-box-cmp {
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border: #CCCCCC solid 1px;
+    border-radius: .5rem;
+    margin-bottom: 4px;
+}
+
+/* logo de los inputs */
+.logo-input-cmp {
+    background-color: #002F4C;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    height: 100%;
+    width: 4rem;
+}
+
+.input-box-cmp input {
+    width: 100%;
+    background-color: transparent;
+    padding-left: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+
+.from-button-cmp {
+    background-color: #002F4C;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 1rem;
+    padding-block: .6rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
